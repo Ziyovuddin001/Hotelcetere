@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Hotel Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="hotelziyo002.ru">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header" id="navigation-menu">
+        <div class="container">
+            <nav>
+                <a id="home" href="#" class="logo" style="color: white;">
+                    <h1 style="font-family: 'Roboto Slab', Arial, serif; font-weight: bold; font-size: 35px;">Hotel.Ru
+                    </h1>
+                </a>
+
+                <ul class="nav-menu">
+                    <li> <a href="#home" class="nav-link">Home</a> </li>
+                    <li> <a href="#about" class="nav-link">About</a> </li>
+                    <li> <a href="#rooms" class="nav-link">Rooms</a> </li>
+                    <li> <a href="#restaurant" class="nav-link">Restaurant</a> </li>
+                    <li> <a href="#gallery" class="nav-link">Gallery</a> </li>
+                    <li> <a href="#contact" class="nav-link">Contact</a> </li>
+                </ul>
+
+                <div class="hambuger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="head_container">
+            <div class="box">
+                <div class="text">
+                    <h1 style="text-align: center;">Ziyo_Отель</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <button><a style="color: white;" href="#">MORE INFO</a></button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://149345965.v2.pressablecdn.com/wp-content/uploads/img-hotels-country-inn-hotel.jpg"
+                    class="slide">
+            </div>
+            <div class="image_item">
+                <img src="./rasm01.jpeg" alt="" class="slide active" onclick="img('./rasm01.jpeg')">
+                <img src="./1-14085_beach-hotel-background-hd.jpeg" alt="" class="slide"
+                    onclick="img('./1-14085_beach-hotel-background-hd.jpeg')">
+                <img src="./hotelswim.jpeg" alt="" class="slide" onclick="img('./hotelswim.jpeg')">
+                <img src="./2022-03-12 22.30.57.jpg" alt="" class="slide" onclick="img('./2022-03-12 22.30.57.jpg')">
+            </div>
+        </div>
+    </section>
+    <section class="book">
+        <div class="container flex">
+            <div class="input grid">
+                <div class="box">
+                    <label>Регистрироваться:</label>
+                    <input type="date" placeholder="Check-in-Date">
+                </div>
+                <div class="box">
+                    <label>Проверить:</label>
+                    <input type="date" placeholder="Check-out-Date">
+                </div>
+                <div class="box">
+                    <label>Взрослые:</label> <br>
+                    <input type="number" placeholder="0">
+                </div>
+                <div class="box">
+                    <label>Дети:</label> <br>
+                    <input type="number" placeholder="0">
+                </div>
+            </div>
+            <div class="search">
+                <a style="cursor: grab; color: white;" href="#"><input type="submit" value="SEARCH"></a>
+            </div>
+        </div>
+    </section>
+    <section class="about top" id="about">
+        <div class="container flex">
+            <div class="left">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwzMXvVf2JciTBRN30c-6tsbkMzaBXsAKrHk6k-2PvYYTEaY8saYl9fnsVPOaoMe8_UQ&usqp=CAU"
+                        alt="" class="image1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0lothVavZYSYhY0njt341N62O2Bo377fUlIMRIeKpWNpQjTeRgLMhf9v0QoQAomE5XMo&usqp=CAU"
+                        alt="" class="image2">
+                </div>
+            </div>
+            <div class="right">
+                <div class="heading">
+                    <h5>RAISING COMFOMRT TO THE HIGHEST LEVEL</h5>
+                    <h2>Welcome to Uzbekistan Hotel Resort</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
+                    <button class="btn1"><a href="#" style="color: white;">READ MORE</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper top" id="rooms">
+        <div class="container">
+            <div class="text">
+                <h2>Our Amenities</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. </p>
+
+                <div class="content">
+                    <div class="box flex">
+                        <i class="fas fa-swimming-pool"></i>
+                        <span>Swimming pool</span>
+                    </div>
+                    <div class="box flex">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>Gym & yogo</span>
+                    </div>
+                    <div class="box flex">
+                        <i class="fas fa-spa"></i>
+                        <span>Spa & massage</span>
+                    </div>
+                    <div class="box flex">
+                        <i class="fas fa-ship"></i>
+                        <span>Boat Tours</span>
+                    </div>
+                    <div class="box flex">
+                        <i class="fas fa-swimmer"></i>
+                        <span>Surfing Lessons</span>
+                    </div>
+                    <div class="box flex">
+                        <i class="fas fa-microphone"></i>
+                        <span>Conference room</span>
+                    </div>
+                    <div class="box flex">
+                        <i class="fas fa-water"></i>
+                        <span>Diving & smorking</span>
+                    </div>
+                    <div class="box flex">
+                        <i class="fas fa-umbrella-beach"></i>
+                        <span>Private Beach</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="room top" id="room">
+        <div class="container">
+            <div class="heading_top flex1">
+                <div class="heading">
+                    <h5>HIGH LEVEL COMFORT ROOMS</h5>
+                    <h2>Rooms $ Suites</h2>
+                </div>
+                <div class="button">
+                    <button class="btn1"><a href="#" style="color: white;">VIEW ALL</a></button>
+                </div>
+            </div>
+
+            <div class="content grid">
+                <div class="box">
+                    <div class="img">
+                        <img src="https://themodernizedhotel.files.wordpress.com/2021/04/pexels-photo-2873951.jpeg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p style="text-align: center;"> <span
+                                style="margin-right: 10px; font-weight: bold; font-size: 19px;">$</span>129 <span
+                                style="margin-left: 10px; font-weight: bold; font-size: 19px;">/per
+                                night</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p style="text-align: center;"> <span
+                                style="margin-right: 10px; font-weight: bold; font-size: 19px;">$</span>139 <span
+                                style="margin-left: 10px; font-weight: bold; font-size: 19px;">/per
+                                night</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1554647286-f365d7defc2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p style="text-align: center;"> <span
+                                style="margin-right: 10px; font-weight: bold; font-size: 19px;">€</span>119 <span
+                                style="margin-left: 10px; font-weight: bold; font-size: 19px;">/per
+                                night</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper wrapper2 top">
+        <div class="container">
+            <div class="text">
+                <div class="heading">
+                    <h5 style="color: rgb(19, 245, 253); box-shadow: 0, 0,0,00.3s#3f9cc1;">AT THE HEART OF COMMUNICATION
+                    </h5>
+                    <h2 style="color: rgb(19, 245, 253); box-shadow: 0, 0,0,00.3s#3f9cc1;">People Say</h2>
+                </div>
+
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+                    <div class="box flex">
+                        <div class="img">
+                            <img src="https://c8.alamy.com/comp/PXK1GH/uzbekistan-bukhara-lyabi-hauz-restaurant-people-PXK1GH.jpg"
+                                alt="">
+                        </div>
+                        <div class="name">
+                            <h3 style="color: rgb(19, 245, 253); box-shadow: 0, 0,0,00.3s#3f9cc1;">Ziyo Hotel</h3>
+                            <h3 style="color: rgb(19, 245, 253); box-shadow: 0, 0,0,00.3s#3f9cc1;">Uzbekistan</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="restaurant top" id="restaurant">
+        <div class="container flex">
+            <div class="left">
+                <img src="https://c8.alamy.com/comp/PXK1GH/uzbekistan-bukhara-lyabi-hauz-restaurant-people-PXK1GH.jpg"
+                    alt="">
+            </div>
+            <div class="right">
+                <div class="text">
+                    <h2>Uzbekistan Restaurant</h2>
+                    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.</p>
+                </div>
+                <div class="accordionWrapper">
+                    <div class="accordionItem close">
+                        <h2 class="accordionIHeading">Andijan Kitchen</h2>
+                        <div class="accordionItemContent">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordionItem close">
+                        <h2 class="accordionIHeading">Fergana Kitchen</h2>
+                        <div class="accordionItemContent">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordionItem close">
+                        <h2 class="accordionIHeading">Shakhrikhan Kitchen</h2>
+                        <div class="accordionItemContent">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordionItem close">
+                        <h2 class="accordionIHeading">Tashkent Kitchen</h2>
+                        <div class="accordionItemContent">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallary mtop " id="gallery">
+        <div class="container">
+            <div class="heading_top flex1">
+                <div class="heading">
+                    <h5>WELCOME TO OUR PHOTO GALLERY</h5>
+                    <h2>Photo Gallery of Our Hotel</h2>
+                </div>
+                <div class="button">
+                    <button class="btn1"><a href="#" style="color: white;">VIEW GALLERY</a></button>
+                </div>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./rasm1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./rasm2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./rasm3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./rasm4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./rasm5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./rasm6.jpeg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./rasm7.jpeg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./rasm8.jpeg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="map top">
+        <iframe src="https://www.google.com/maps/@40.7763755,72.3832358,12.54z" width="600" height="450"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+
+    <footer id="contact">
+        <div class="container grid top">
+            <div class="box">
+                <img
+                    src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/48/000000/external-hotel-hotel-services-and-city-elements-flatart-icons-flat-flatarticons-1.png" />
+                <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.</p>
+
+                <p>Accepted payment methods</p>
+                <div class="payment grid">
+                    <img src="https://img.icons8.com/color/48/000000/visa.png" />
+                    <img src="https://img.icons8.com/color/48/000000/mastercard.png" />
+                    <img src="https://img.icons8.com/color-glass/48/000000/paypal.png" />
+                    <img src="https://img.icons8.com/fluency/48/000000/amex.png" />
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Recent News</h3>
+
+                <ul>
+                    <li>Our Secret Uzbekistan Boat Tour Is Just for You</li>
+                    <li>Chill and Escape in Our Natural Shelters</li>
+                    <li>September in Ziyo Hotel</li>
+                    <li>Live Music Concerts at Ziyo</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>For Customers</h3>
+                <ul>
+                    <li>About Uzbekistan</li>
+                    <li>Customer Care/Help</li>
+                    <li>Corporate Accounts</li>
+                    <li>Financial Information</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+
+                <ul>
+                    <li>3015 Grand Ave, Cocount Grove, Diydor street FL 123456</li>
+                    <li><i style="margin-right: 8px;" class="far fa-envelope"></i>ziyovuddin@gmail.com</li>
+                    <li><i style="margin-right: 8px;" class="far fa-phone-alt"></i>+998 91 168 97 96</li>
+                    <li><i style="margin-right: 8px;" class="far fa-phone-alt"></i>+998 91 170 17 01</li>
+                    <li><i style="margin-right: 8px;" class="far fa-comments"></i>24/ 7 Customer Services</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+    <script src="./js.js"></script>
+</body>
+
+</html>
